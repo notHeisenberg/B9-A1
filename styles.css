@@ -1,0 +1,64 @@
+
+* {
+    font: inherit;
+    margin:0 ;
+}
+
+
+header {
+    background-image: url(/resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1320px;
+    height: 600px;
+    top: 50px;
+    left: 280px;
+
+}
+
+header .container{
+    background-image: url(/resources/Banner\ Image.png);
+    position: relative;
+    height: 600px;
+
+
+
+}
+
+.container .content-box{
+    position: absolute;
+    width: 632px;
+    height: 246px;
+    top: 177px;
+    left: 337px;
+}
+
+.container .content-box .content{
+    position: absolute;
+    width: 636px;
+    height: 246px;
+}
+
+.container .content-box .content .small {
+    color: #FFF;
+    position: absolute;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    top: 0;
+    left: 186px;
+    
+
+}
+
+.container  .content-box .content .big {
+    color: #FFF;
+    position: absolute;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    top: 60px;
+    left: 0;
+}
