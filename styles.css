@@ -1,10 +1,9 @@
-
 * {
     font: inherit;
-    margin:0 ;
+    margin: 0;
 }
 
-div{
+div {
     display: block;
 }
 
@@ -19,7 +18,7 @@ header {
 
 }
 
-header .container{
+header .container {
     background-image: url(/resources/Banner\ Image.png);
     position: relative;
     height: 600px;
@@ -28,7 +27,7 @@ header .container{
 
 }
 
-.container .content-box{
+.container .content-box {
     position: absolute;
     width: 632px;
     height: 246px;
@@ -36,7 +35,7 @@ header .container{
     left: 337px;
 }
 
-.container .content-box .content{
+.container .content-box .content {
     position: absolute;
     width: 636px;
     height: 246px;
@@ -51,11 +50,11 @@ header .container{
     font-weight: 400;
     top: 0;
     left: 186px;
-    
+
 
 }
 
-.container  .content-box .content .big {
+.container .content-box .content .big {
     color: #FFF;
     position: absolute;
     text-align: center;
@@ -67,26 +66,26 @@ header .container{
 }
 
 
-section .container{
+section .container {
     position: absolute;
     width: 803px;
     height: 806px;
     top: 770px;
     left: 500px;
-    
+
 }
 
-section .container .content-1{
+section .container .content-1 {
     position: absolute;
     width: 385px;
     height: 107px;
     top: 0;
     left: 209px;
-    
+
 
 }
 
-section .container .content-1 .big{
+section .container .content-1 .big {
     position: absolute;
     top: 0;
     left: 0;
@@ -98,7 +97,7 @@ section .container .content-1 .big{
     margin: 0;
 }
 
-section .container .content-2{
+section .container .content-2 {
     position: absolute;
     width: 803px;
     height: 651px;
@@ -106,7 +105,7 @@ section .container .content-2{
     left: 0;
 }
 
-section .container .content-2 .content-box{
+section .container .content-2 .content-box {
     position: absolute;
     width: 414px;
     height: 103px;
@@ -114,7 +113,7 @@ section .container .content-2 .content-box{
     left: 196px;
 }
 
-section .container .content-2 .content-box .small{
+section .container .content-2 .content-box .small {
     position: absolute;
     top: 0;
     left: 7px;
@@ -127,7 +126,7 @@ section .container .content-2 .content-box .small{
     line-height: normal;
 }
 
-section .container .content-2 .content-box .medium{
+section .container .content-2 .content-box .medium {
     position: absolute;
     top: 45px;
     left: 0;
@@ -140,7 +139,7 @@ section .container .content-2 .content-box .medium{
     line-height: normal;
 }
 
-section .container .content-2 .img{
+section .container .content-2 .img {
     position: absolute;
     width: 803px;
     height: 500px;
@@ -149,3 +148,57 @@ section .container .content-2 .img{
     object-fit: cover;
 }
 
+section .container-2 {
+    background-image: url(/resources/Vectorrr.png);
+    position: absolute;
+    width: 1320px;
+    height: 600px;
+    top: 105em;
+    left: 280px;
+
+}
+
+section .container-2 .content-box {
+    padding: 200px 128px;
+    font: inherit;
+}
+
+section .container-2 .content-box .intro {
+    width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70px;
+    letter-spacing: 7.04px;
+}
+
+section .container-2 .content-box .title  {
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+section .container-2 .button {
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+section .container-2 .button button{
+    background: inherit;
+    border: none;
+    color: #FFF;
+    text-transform: uppercase;
+    padding-top:10px ;
+    
+}
