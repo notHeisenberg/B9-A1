@@ -4,6 +4,9 @@
     margin:0 ;
 }
 
+div{
+    display: block;
+}
 
 header {
     background-image: url(/resources/Banner\ Image.png);
@@ -62,3 +65,87 @@ header .container{
     top: 60px;
     left: 0;
 }
+
+
+section .container{
+    position: absolute;
+    width: 803px;
+    height: 806px;
+    top: 770px;
+    left: 500px;
+    
+}
+
+section .container .content-1{
+    position: absolute;
+    width: 385px;
+    height: 107px;
+    top: 0;
+    left: 209px;
+    
+
+}
+
+section .container .content-1 .big{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #ff0000;
+    font-size: 88px;
+    text-align: center;
+    margin: 0;
+}
+
+section .container .content-2{
+    position: absolute;
+    width: 803px;
+    height: 651px;
+    top: 155px;
+    left: 0;
+}
+
+section .container .content-2 .content-box{
+    position: absolute;
+    width: 414px;
+    height: 103px;
+    top: 0;
+    left: 196px;
+}
+
+section .container .content-2 .content-box .small{
+    position: absolute;
+    top: 0;
+    left: 7px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ff0000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+section .container .content-2 .content-box .medium{
+    position: absolute;
+    top: 45px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #070211;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+section .container .content-2 .img{
+    position: absolute;
+    width: 803px;
+    height: 500px;
+    top: 151px;
+    left: 0;
+    object-fit: cover;
+}
+
